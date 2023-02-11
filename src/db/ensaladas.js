@@ -40,7 +40,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/1.webp',
+    image: '/1.jpg',
     numberOnBook: 1,
   },
   {
