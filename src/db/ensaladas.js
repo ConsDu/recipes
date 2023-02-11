@@ -40,7 +40,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: '/1.jpg',
+    image: '/images/1.webp',
     numberOnBook: 1,
   },
   {
@@ -83,7 +83,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/2.webp',
+    image: '/images/2.webp',
     numberOnBook: 2,
   },
   {
@@ -125,7 +125,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/3.webp',
+    image: '/images/3.webp',
     numberOnBook: 3,
   },
   {
@@ -166,7 +166,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/4.webp',
+    image: '/images/4.webp',
     numberOnBook: 4,
   },
   {
@@ -205,7 +205,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/5.webp',
+    image: '/images/5.webp',
     numberOnBook: 5,
   },
   {
@@ -243,7 +243,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/6.webp',
+    image: '/images/6.webp',
     numberOnBook: 6,
   },
   {
@@ -285,7 +285,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/7.webp',
+    image: '/images/7.webp',
     numberOnBook: 7,
   },
   {
@@ -328,7 +328,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/8.webp',
+    image: '/images/8.webp',
     numberOnBook: 8,
   },
   {
@@ -370,7 +370,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/9.webp',
+    image: '/images/9.webp',
     numberOnBook: 9,
   },
   {
@@ -413,7 +413,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/10.webp',
+    image: '/images/10.webp',
     numberOnBook: 10,
   },
   {
@@ -456,7 +456,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/11.webp',
+    image: '/images/11.webp',
     numberOnBook: 11,
   },
   {
@@ -494,7 +494,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/12.webp',
+    image: '/images/12.webp',
     numberOnBook: 12,
   },
   {
@@ -536,7 +536,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/13.webp',
+    image: '/images/13.webp',
     numberOnBook: 13,
   },
   {
@@ -575,7 +575,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/14.webp',
+    image: '/images/14.webp',
     numberOnBook: 14,
   },
   {
@@ -618,7 +618,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/15.webp',
+    image: '/images/15.webp',
     numberOnBook: 15,
   },
   {
@@ -661,7 +661,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/16.webp',
+    image: '/images/16.webp',
     numberOnBook: 16,
   },
   {
@@ -703,7 +703,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/17.webp',
+    image: '/images/17.webp',
     numberOnBook: 17,
   },
   {
@@ -746,7 +746,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/18.webp',
+    image: '/images/18.webp',
     numberOnBook: 18,
   },
   {
@@ -784,7 +784,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/19.webp',
+    image: '/images/19.webp',
     numberOnBook: 19,
   },
   {
@@ -826,7 +826,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/20.webp',
+    image: '/images/20.webp',
     numberOnBook: 20,
   },
   {
@@ -868,7 +868,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/21.webp',
+    image: '/images/21.webp',
     numberOnBook: 21,
   },
   {
@@ -910,7 +910,7 @@ const recipes = [
     people: 4,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/22.webp',
+    image: '/images/22.webp',
     numberOnBook: 22,
   },
   {
@@ -953,7 +953,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/23.webp',
+    image: '/images/23.webp',
     numberOnBook: 23,
   },
   {
@@ -996,7 +996,7 @@ const recipes = [
     people: 6,
     category: 'veganas',
     favorite: false,
-    image: 'src/db/images/24.webp',
+    image: '/images/24.webp',
     numberOnBook: 24,
   },
 ];
