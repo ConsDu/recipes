@@ -1,6 +1,6 @@
 import NavBar from '../components/NavBar'
 import RecipesWrapper from '../components/RecipesWrapper'
-import NotFoundSVG from "./public/images/page_not_found.svg";
+import NotFoundSVG from "../page_not_found.svg";
 
 function Home() {
 
