@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from 'react';
-import recipesDb from '../db/ensaladas';
 
 const RecipesContext = createContext();
 

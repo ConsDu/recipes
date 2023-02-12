@@ -14,7 +14,7 @@ function Recipe({ item, onBookmarkToggle, bookmarks }) {
   }
 
   const handleCopyClick = () => {
-    copy(window.location.href)
+    copy(window.location.host + "/#/" + item.id)
     snackbar.show("Copied!")
   }
 
