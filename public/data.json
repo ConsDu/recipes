@@ -39,7 +39,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/1.jpg",
+    "image": "/images/1.webp",
     "numberOnBook": 1
   },
   {
@@ -82,7 +82,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/2.jpg",
+    "image": "/images/2.webp",
     "numberOnBook": 2
   },
   {
@@ -124,7 +124,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/3.jpg",
+    "image": "/images/3.webp",
     "numberOnBook": 3
   },
   {
@@ -165,7 +165,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/4.jpg",
+    "image": "/images/4.webp",
     "numberOnBook": 4
   },
   {
@@ -204,7 +204,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/5.jpg",
+    "image": "/images/5.webp",
     "numberOnBook": 5
   },
   {
@@ -242,7 +242,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/6.jpg",
+    "image": "/images/6.webp",
     "numberOnBook": 6
   },
   {
@@ -284,7 +284,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/7.jpg",
+    "image": "/images/7.webp",
     "numberOnBook": 7
   },
   {
@@ -327,7 +327,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/8.jpg",
+    "image": "/images/8.webp",
     "numberOnBook": 8
   },
   {
@@ -369,7 +369,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/9.jpg",
+    "image": "/images/9.webp",
     "numberOnBook": 9
   },
   {
@@ -412,7 +412,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/10.jpg",
+    "image": "/images/10.webp",
     "numberOnBook": 10
   },
   {
@@ -455,7 +455,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/11.jpg",
+    "image": "/images/11.webp",
     "numberOnBook": 11
   },
   {
@@ -493,7 +493,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/12.jpg",
+    "image": "/images/12.webp",
     "numberOnBook": 12
   },
   {
@@ -535,7 +535,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/13.jpg",
+    "image": "/images/13.webp",
     "numberOnBook": 13
   },
   {
@@ -574,7 +574,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/14.jpg",
+    "image": "/images/14.webp",
     "numberOnBook": 14
   },
   {
@@ -617,7 +617,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/15.jpg",
+    "image": "/images/15.webp",
     "numberOnBook": 15
   },
   {
@@ -660,7 +660,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/16.jpg",
+    "image": "/images/16.webp",
     "numberOnBook": 16
   },
   {
@@ -702,7 +702,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/17.jpg",
+    "image": "/images/17.webp",
     "numberOnBook": 17
   },
   {
@@ -745,7 +745,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/18.jpg",
+    "image": "/images/18.webp",
     "numberOnBook": 18
   },
   {
@@ -783,7 +783,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/19.jpg",
+    "image": "/images/19.webp",
     "numberOnBook": 19
   },
   {
@@ -825,7 +825,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/20.jpg",
+    "image": "/images/20.webp",
     "numberOnBook": 20
   },
   {
@@ -867,7 +867,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/21.jpg",
+    "image": "/images/21.webp",
     "numberOnBook": 21
   },
   {
@@ -909,7 +909,7 @@
     "people": 4,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/22.jpg",
+    "image": "/images/22.webp",
     "numberOnBook": 22
   },
   {
@@ -952,7 +952,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/23.jpg",
+    "image": "/images/23.webp",
     "numberOnBook": 23
   },
   {
@@ -995,7 +995,7 @@
     "people": 6,
     "category": "veganas",
     "favorite": false,
-    "image": "src/db/images/24.jpg",
+    "image": "/images/24.webp",
     "numberOnBook": 24
   }
 ]

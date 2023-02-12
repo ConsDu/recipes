@@ -4,10 +4,16 @@ import recipesDb from '../db/ensaladas';
 const RecipesContext = createContext();
 
 function Provider({ children }) {
-  const [recipes, setRecipes] = useState(recipesDb);
+  const [recipes, setRecipes] = useState();
   const [bookmarks, setBookmarks] = useState(() => {
     return JSON.parse(localStorage.getItem('userBookmarks')) ?? [];
   });
+
+  useEffect(() => {
+    fetch("/data.json")
+      .then(response => response.json())
+      .then(data => setRecipes(data.recipes))
+  }, [])
 
   useEffect(() => {
     localStorage.setItem('userBookmarks', JSON.stringify(bookmarks));
@@ -22,6 +28,14 @@ function Provider({ children }) {
       setBookmarks(oldBookmarks => [...oldBookmarks, item.id]);
     }
   };
+
+  if (!recipes) {
+    return <div className='vh-100 d-flex justify-content-center align-items-center'>
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  }
 
   return (
     <RecipesContext.Provider
