@@ -9,7 +9,7 @@ function Veganas() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page="Veganas" />
       <RecipesWrapper>
         {recipes.filter(item => item.category === "veganas").map(item => {
           return (

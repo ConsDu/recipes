@@ -9,7 +9,7 @@ function Cremosas() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page="Cremosas" />
       <RecipesWrapper>
         {recipes.filter(item => item.category === "cremosas").map(item => {
           return (

@@ -10,11 +10,6 @@
     outline: none !important;
 }
 
-.active {
-    background-color: rgb(57, 62, 70) !important;
-    color: rgb(255, 255, 255) !important;
-}
-
 .card-image {
     object-fit: cover !important;
 }
@@ -50,6 +45,11 @@ html, body{
     margin-top: 100px;
 }
 
+@include media-breakpoint-up(lg) {
+    .navbar-brand {
+        display: none;
+    }
+}
 // snackbar css
 
 .snackbar {
@@ -81,3 +81,4 @@ html, body{
     -webkit-transform: none;
     transform: none;
 }
+

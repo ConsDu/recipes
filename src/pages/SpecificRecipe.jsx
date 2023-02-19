@@ -11,7 +11,7 @@ function SpecificRecipe() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page={recipes.filter(item => item.id === id)[0].name} />
       <RecipesWrapper>
         {recipes.filter(item => item.id === id).map(item => {
           return (

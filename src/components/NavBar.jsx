@@ -2,44 +2,48 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { BsFillBookmarkFill } from "react-icons/bs";
 
-function NavBar() {
+function NavBar({ page }) {
 
   return (
-    <nav className='my-4 mx-auto d-flex justify-content-center'>
-      <div className="navbar navbar-expand-lg">
-        <div className="container-fluid d-flex justify-content-center">
+    <nav className='my-4 px-5'>
+      <div className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+          <a className="navbar-brand">{page}</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 mt-3 nav-pills">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink to="/" id="all" data-id="all" className={`pointer nav-link text-center`}>Todas</NavLink>
+                <NavLink to="/" className="nav-link" aria-current="page">Todas</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/cremosas" data-id="cremosas" className={`pointer nav-link text-center`} >Cremosas</NavLink>
+                <NavLink to="/veganas" className="nav-link" aria-current="page">Veganas</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/veganas" data-id="veganas" className={`pointer nav-link text-center`} >Veganas</NavLink>
+                <NavLink to="/cremosas" className="nav-link">Cremosas</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/marineras" data-id="marineras" className={`pointer nav-link text-center`} >Marineras</NavLink>
+                <NavLink to="/marineras" className="nav-link">Marineras</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/huevo-carne" data-id="huevo" className={`pointer nav-link text-center`} >Huevo/Carne</NavLink>
+                <NavLink to="/huevo-carne" className="nav-link">Huevo/Carne</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/salsas" data-id="salsas" className={`pointer nav-link text-center`} >Salsas</NavLink>
+                <NavLink to="/salsas" className="nav-link">Salsas</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/bookmarks" data-id="bookmarks" className={`pointer nav-link text-center`} >< BsFillBookmarkFill /></NavLink>
+                <NavLink to="/bookmarks" className="nav-link"><BsFillBookmarkFill /></NavLink>
               </li>
             </ul>
+            <form className="d-flex" role="search">
+              <input className="form-control me-2" type="search" placeholder="Search by ingredient" aria-label="Search" />
+              <button className="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
       </div>
     </nav>
-
   )
 }
 

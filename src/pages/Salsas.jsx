@@ -9,7 +9,7 @@ function Salsa() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page="Salsas" />
       <RecipesWrapper>
         {recipes.filter(item => item.category === "salsa").map(item => {
           return (

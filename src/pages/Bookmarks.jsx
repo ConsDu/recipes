@@ -9,7 +9,7 @@ function Bookmarks() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page="Bookmarks" />
       <RecipesWrapper>
         {recipes.filter(item => bookmarks.includes(item.id)).map(item => {
           return (

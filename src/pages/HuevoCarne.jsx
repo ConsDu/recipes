@@ -9,7 +9,7 @@ function HuevoCarne() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page="Con huevo/carne" />
       <RecipesWrapper>
         {recipes.filter(item => item.category === "huevo").map(item => {
           return (

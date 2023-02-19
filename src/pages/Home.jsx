@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page="Todas" />
       <RecipesWrapper>
         {recipes.map(item => {
           return (

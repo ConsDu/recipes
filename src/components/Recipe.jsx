@@ -23,7 +23,7 @@ function Recipe({ item, onBookmarkToggle, bookmarks }) {
       <img src={item.image} className="card-img-top card-image" alt="..." height={300} />
       <div className="card-body">
         <div className='d-flex justify-content-between'>
-          <Link to={"/" + item.id} className="text-dark text-decoration-none"><h5 className="card-title">{item.name}</h5></Link>
+          <Link to={"/recipe/" + item.id} className="text-dark text-decoration-none"><h5 className="card-title">{item.name}</h5></Link>
           <div className='me-2'>
             <a className='pointer text-dark me-4' onClick={handleCopyClick}>{<BsFillShareFill />}</a>
             <a className='pointer text-dark' onClick={handleBookmarkClick}>{bookmarks.includes(item.id) ? <BsFillBookmarkFill /> : <BsBookmark />}</a>

@@ -9,7 +9,7 @@ function Marineras() {
 
   return (
     <>
-      <NavBar />
+      <NavBar page="Marineras" />
       <RecipesWrapper>
         {recipes.filter(item => item.category === "marineras").map(item => {
           return (
