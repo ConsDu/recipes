@@ -5,7 +5,7 @@ import { BsFillBookmarkFill } from "react-icons/bs";
 function NavBar({ page }) {
 
   return (
-    <nav className='my-4 px-5'>
+    <nav className='my-4 px-3'>
       <div className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand">{page}</a>
