@@ -1,8 +1,8 @@
 # A Salads App built with React and React Router
 
-I have a keen interest in all types of salads because I genuinely love them, and since I had to practice some React concepts, such as React Router, I built this straightforward recipes app where you can find many salads by category.
+I have a keen interest in all types of salads because I genuinely love them, and since I had to practice some React concepts, such as React Router and Context, I've built this straightforward recipes app where you can find many salads by category.
 
-The purpose of this app is to provide you with an easy-to-use database of salad recipes. This app is ideal for those who are always on the go because making these salads is easy, fast and only requires a few ingredients, plus you will be eating healthy.
+The purpose of this app is to provide you with an easy-to-use database of salad recipes. This app is ideal for those who are always on the go because making these salads is easy, fast and only requires just ingredients, plus you will be eating healthy.
 
 Currently the app language is only available in Spanish and the recipes database is not complete (super busy lately).
 
