@@ -4,6 +4,8 @@ I have a keen interest in all types of salads because I genuinely love them, and
 
 The purpose of this app is to provide you with an easy-to-use database of salad recipes. This app is ideal for those who are always on the go because making these salads is easy, fast and only requires just ingredients, plus you will be eating healthy.
 
+On mobile devices can be bookmarked (*saved to Home*) and it will show as full-screen with no native navigation as a Progressive Web Application.
+
 Currently the app language is only available in Spanish and the recipes database is not complete (super busy lately).
 
 ## Features
